@@ -106,7 +106,7 @@ main form button:hover {
   font-size: 1rem;
   cursor: pointer;
 }
-
+/* 
 footer {
   position: fixed;
   bottom: 0;
@@ -119,7 +119,7 @@ footer {
 footer a {
   color: #fff;
   text-decoration: none;
-}
+} */
 
 @keyframes float {
   from {
@@ -147,7 +147,7 @@ footer a {
     padding-right: 2rem;
     width: 80%;
   }
-  footer {
+  /* footer {
     padding-bottom: 2.5rem;
-  }
+  } */
 }
