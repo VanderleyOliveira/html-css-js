@@ -2,63 +2,45 @@
 <html lang="pt-BR">
 
 <head>
-    <title>Projetos HTML CSS e JS</title>
-    <!-- meta tags necessárias para uso do Bootstrap 5 -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS Bootstrap 5 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Projetos HTML CSS e JS</title>
+
+    <!-- styles sheets -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 
-<body style="background-color: #222;">
-    <main class="container-fluid">
-        <div class="container mt-5">
+<body>
+    <main>
+        <section class="projects__container">
+            <div class="card--project">
+                <img class="img--card--project" src="./src/assets/imgs/refri-photo.png" alt="Capa do projeto Refri Animation">
+                <div class="description--card--project">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos optio at fuga porro harum officia aliquid veritatis accusantium ratione blanditiis rem exercitationem totam expedita quibusdam consectetur sapiente eaque, tempora sunt?</p>
 
-            <div class="row">
-            
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./src/assets/imgs/refri-photo.png" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <p class="card-text"><a href="./src/projects/animation js/index.html" target="_blank">Refri Animation js</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./src/assets/imgs/to-do.png" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <p class="card-text"><a href="./src/projects/todo-list/index.html" target="_blank">To Do List</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./src/assets/imgs/img-app-recipes.png" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <p class="card-text"><a href="./src/projects/app-receitas/index.html" target="_blank">Buscador de Receitas</a></p>
-                        </div>
-                    </div>
+                    <a class="btn--card--project" href="./src/projects/animation js/index.html" target="_blank">Refri Animation js</a>
                 </div>
             </div>
-        </div>
+
+            <div class="card--project">
+                <img class="img--card--project" src="./src/assets/imgs/to-do.png" alt="Capa do projeto To Do List">
+                <div class="description--card--project">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos optio at fuga porro harum officia aliquid veritatis accusantium ratione blanditiis rem exercitationem totam expedita quibusdam consectetur sapiente eaque, tempora sunt?</p>
+                    <a class="btn--card--project" href="./src/projects/todo-list/index.html" target="_blank">To Do List</a>
+                </div>
+            </div>
+
+            <div class="card--project">
+                <img class="img--card--project" src="./src/assets/imgs/img-app-recipes.png" alt="Capa do projeto Buscador de Receitas">
+                <div class="description--card--project">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos optio at fuga porro harum officia aliquid veritatis accusantium ratione blanditiis rem exercitationem totam expedita quibusdam consectetur sapiente eaque, tempora sunt?</p>
+                    <a class="btn--card--project" href="./src/projects/app-receitas/index.html" target="_blank">Buscador de Receitas</a>
+                </div>
+            </div>
+        </section>
     </main>
-
-
-    <!-- Jquery, Popper e JS Bootstrap 5 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
