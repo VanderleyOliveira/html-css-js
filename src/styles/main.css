@@ -12,6 +12,11 @@ main {
     width: 100%;
 }
 
+h1{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
 .projects__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
