@@ -36,8 +36,39 @@ input {
 
     grid-row: 1/3;
     grid-column: 1/5;
-}  
+}
 
 button {
+    font-size: 24px;
+    border: none;
+    margin: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+}
 
+button:hover{
+    opacity: 0.8;
+}
+
+.black-button {
+    background: #303136;
+}
+
+.blue-button {
+    background: #005DB2;
+}
+
+.gray-button {
+    background: #616161;
+}
+
+.equal-button {
+    background: #1991FF;
+    grid-row: 6/8;
+    grid-column: 4/5;
+}
+
+.zero {
+    grid-column: 1/3;
 }
