@@ -14,26 +14,26 @@
     <div>
         <input class="display">
 
-        <button class="gray-button">AC</button>
-        <button class="gray-button">+/-</button>
-        <button class="blue-button">/</button>
-        <button class="blue-button">*</button>
-        <button class="black-button">7</button>
-        <button class="black-button">8</button>
-        <button class="black-button">9</button>
-        <button class="blue-button">-</button>
-        <button class="black-button">4</button>
-        <button class="black-button">5</button>
-        <button class="black-button">6</button>
-        <button class="blue-button">+</button>
-        <button class="black-button">1</button>
-        <button class="black-button">2</button>
-        <button class="black-button">3</button>
-        <button class="blue-button equal-button">=</button>
-        <button class="black-button zero">0</button>
-        <button class="black-button">.</button>
+        <button class="gray-button" onclick="cleanScreen()">AC</button>
+        <button class="gray-button" onclick="invert()">+/-</button>
+        <button class="blue-button" onclick="addCaracter('/')">/</button>
+        <button class="blue-button" onclick="addCaracter('*')">*</button>
+        <button class="black-button" onclick="addCaracter('7')">7</button>
+        <button class="black-button" onclick="addCaracter('8')">8</button>
+        <button class="black-button" onclick="addCaracter('9')">9</button>
+        <button class="blue-button" onclick="addCaracter('-')">-</button>
+        <button class="black-button" onclick="addCaracter('4')">4</button>
+        <button class="black-button" onclick="addCaracter('5')">5</button>
+        <button class="black-button" onclick="addCaracter('6')">6</button>
+        <button class="blue-button" onclick="addCaracter('+')">+</button>
+        <button class="black-button" onclick="addCaracter('1')">1</button>
+        <button class="black-button" onclick="addCaracter('2')">2</button>
+        <button class="black-button" onclick="addCaracter('3')">3</button>
+        <button class="blue-button equal-button" onclick="calculate()">=</button>
+        <button class="black-button zero" onclick="addCaracter('0')">0</button>
+        <button class="black-button" onclick="addCaracter('.')">.</button>
     </div>
 
+    <script src="./src/scripts/script.js"></script>
 </body>
-
 </html>
